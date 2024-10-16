@@ -16,6 +16,7 @@ function Login() {
       return;
     }
     if (user) navigate("/dashboard");
+    console.log("testing");
   }, [user, loading]);
 
   return (
